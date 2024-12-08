@@ -5,7 +5,7 @@
     /*=================== navbar ===================  */
 
     nav a{
-        font-size: 10px !important;
+        font-size: 15px !important;
     }
     nav li{
         font-size: 15px !important;
@@ -14,10 +14,48 @@
     .form-control{
         width: 120px !important;
     }
+    /* ================ hero section ================ */
 
-    /*=================== hero section ===================  */
+    .hero-section{
+        height: 50vh !important;
+    }
 
+    .hero-content{
+        padding: 50px opx !important;
+    }
+
+    .display-3{
+        font-size: 40px !important;
+    }
+
+    /* =============== history section ================= */
+
+    .history{
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+
+    .history-content1 img{
+        width: 200px !important;
+        height: 250px !important;
+    }
+    .history-content2{
+        text-align: center !important;
+        width: 100% !important;       
+    }
     
+    /* ================ plans section =================== */
+
+    .plans{
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+    .card{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
 }
 
 /* =================== Media Query 1 =================== */
@@ -30,5 +68,50 @@
 
     nav a{
         font-size: 10px !important;
+    }
+    /* ================ hero section ================ */
+
+    .hero-section{
+        height: 70vh !important;
+    }
+
+    .display-3{
+        font-size: 30px !important;
+    }
+
+    /* ================ history section ================ */
+
+    .history{
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .history-content1 img{
+        width: 200px !important;
+        height: 250px !important;
+    }
+    .history-content2{
+        text-align: center !important;
+        width: 100% !important;       
+    }
+
+    /* ================ plans section ================== */
+
+    .plans{
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .card{
+        width: 150px !important;
+        height: 250px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+    .card img{
+        width: 130px !important;
+        height: 120px !important;
+        align-items: center !important;
     }
 }
