@@ -1,0 +1,34 @@
+/* =================== Media Query 1 =================== */
+
+@media (min-width: 768px) and (max-width: 991px)
+{   
+    /*=================== navbar ===================  */
+
+    nav a{
+        font-size: 10px !important;
+    }
+    nav li{
+        font-size: 15px !important;
+        margin-inline: 5px !important;
+    }
+    .form-control{
+        width: 120px !important;
+    }
+
+    /*=================== hero section ===================  */
+
+    
+}
+
+/* =================== Media Query 1 =================== */
+
+/* =================== Media Query 2 =================== */
+
+@media (min-width: 100px) and (max-width: 767px)
+{
+    /*=================== navbar ===================  */
+
+    nav a{
+        font-size: 10px !important;
+    }
+}

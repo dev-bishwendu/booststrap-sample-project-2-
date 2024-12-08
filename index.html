@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap sample project 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!--=============================navbar started ============================  -->
+
+  <nav class="navbar navbar-expand-md bg-primary opacity-75 bg-gradient py-4 sticky-top">
+    <div class="container">
+      <a class="navbar-brand me-auto" href="#">
+        <i class="fa-solid fa-tree fa-2x text-light">FUTURE</i>
+      </a>            
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-lg-0 fw-bold fs-5">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">PLAN</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              OPTIONS
+            </a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-light" href="#">Action</a></li>
+              <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+            </ul>
+          </li>              
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
+      </div>         
+    </div>
+  </nav>
+
+  <!--============================= navbar ended =============================  -->
+
+  <!--========================= hero section started =========================  -->
+
+  <section class="container-fluid py-5 hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="offset-md-6 col-md-6 col-sm-12">
+          <div class="hero-content text-md-end text-center">
+            <h1 class="fw-bold display-3 text-light">All Thinks Are Possible If You believe.</h1>
+            <p class="lead text-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+            <button class="btn btn-lg btn-light">Discover more</button>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <script src="./js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* =================hero section================= */
+
+.hero-section{
+    background-image: url(../asset/hero\ background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
