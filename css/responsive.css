@@ -195,6 +195,13 @@
         flex-direction: column !important;
         gap: 10px !important;
     }
+    .plans h5{
+        font-size: 13px !important;
+    }
+
+    .plans p{
+        font-size: 9px !important;
+    }
     .card{
         width: 100px !important;
         height: 200px !important;
@@ -217,11 +224,11 @@
 
     .mindset-content h2{
         font-size: 10px !important;
-        translate: -20% -250% !important;
+        translate: -15% -210% !important;
     }
     .mindset-content button{
         font-size: 5px !important;
-        translate: -60% -140% !important;
+        translate: -40% -120% !important;
     }
 
     /* ================ footer section ================= */
@@ -237,6 +244,8 @@
         width: 100% !important;
     }
 }
+
+/* =============================== Media Query 4 ============================== */
 
 @media (min-width: 991px) and (max-width: 3000px)
 {
