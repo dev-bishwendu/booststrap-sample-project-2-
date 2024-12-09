@@ -36,8 +36,8 @@
     }
 
     .history-content1 img{
-        width: 200px !important;
-        height: 250px !important;
+        width: 180px !important;
+        height: 90% !important;
     }
     .history-content2{
         text-align: center !important;
@@ -130,7 +130,7 @@
     }
     .card img{
         width: 130px !important;
-        height: 120px !important;
+        height: 90% !important;
         align-items: center !important;
     }
 
@@ -212,7 +212,7 @@
     }
     .card img{
         width: 50px !important;
-        height: 90px !important;
+        height: 90% !important;
         align-items: center !important;
     }
 
@@ -228,7 +228,7 @@
     }
     .mindset-content button{
         font-size: 5px !important;
-        translate: -40% -120% !important;
+        translate: -50% -105% !important;
     }
 
     /* ================ footer section ================= */
