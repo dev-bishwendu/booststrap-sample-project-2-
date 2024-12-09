@@ -1,4 +1,4 @@
-/* =================== Media Query 1 =================== */
+    /* ================================= Media Query 1 ========================== */
 
 @media (min-width: 768px) and (max-width: 991px)
 {   
@@ -56,11 +56,21 @@
         align-items: center !important;
         flex-direction: column !important;
     }
+
+    /* ================ mindset section =================== */
+
+    .mindset-content h2{
+        font-size: 20px !important;
+        translate: -10% -250% !important;
+    }
+    .mindset-content button{
+        font-size: 10px !important;
+        translate: -40% -140% !important;
+    }
+
 }
 
-/* =================== Media Query 1 =================== */
-
-/* =================== Media Query 2 =================== */
+/* =================================== Media Query 2 ============================ */
 
 @media (min-width: 100px) and (max-width: 767px)
 {
@@ -73,6 +83,7 @@
 
     .hero-section{
         height: 70vh !important;
+        margin-bottom: -10% !important;
     }
 
     .display-3{
@@ -81,22 +92,30 @@
 
     /* ================ history section ================ */
 
+    .history-section{
+        margin-bottom: -10% !important;
+    }
+
     .history{
         flex-direction: column !important;
         gap: 20px !important;
     }
 
     .history-content1 img{
-        width: 200px !important;
+        width: 180px !important;
         height: 250px !important;
     }
     .history-content2{
         text-align: center !important;
-        width: 100% !important;       
+        width: 70% !important;       
     }
 
     /* ================ plans section ================== */
 
+    .flex-wrap{
+        margin-bottom: -10% !important;
+        gap: 20px !important;
+    }
     .plans{
         flex-direction: column !important;
         gap: 20px !important;
@@ -113,5 +132,120 @@
         width: 130px !important;
         height: 120px !important;
         align-items: center !important;
+    }
+
+    /* ================== mindset section ================= */
+
+    .mindset{
+        margin-bottom: -10% !important;
+    }
+
+    .mindset-content h2{
+        font-size: 10px !important;
+        translate: -20% -250% !important;
+    }
+    .mindset-content button{
+        font-size: 5px !important;
+        translate: -60% -140% !important;
+    }
+
+    /* ================ footer section ================= */
+
+    .footer-content{
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .footer1{
+        width: 100% !important;
+    }
+    .footer2{
+        width: 100% !important;
+    }
+}   
+    /*============================== Media Query 3 ==============================*/
+
+    @media (min-width: 100px) and (max-width: 372px)
+{
+    
+    /* ================ hero section ================ */
+
+    .hero-section{
+        margin-bottom: -30% !important;
+    }
+
+    /* =============== history section ================ */
+
+    .history-section{
+        margin-bottom: -30% !important;
+    }
+
+    /* ================ pans section ================= */
+
+    .flex-wrap{
+        margin-bottom: -30% !important;
+    }
+
+    .flex-wrap h2{
+        font-size: 30px !important;
+    }
+    .flex-wrap{
+        gap: 10px !important;
+    }
+    .plans{
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+    .card{
+        width: 100px !important;
+        height: 200px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+    .card img{
+        width: 50px !important;
+        height: 90px !important;
+        align-items: center !important;
+    }
+
+    /* ================== mindset section ================= */
+
+    .mindset{
+        margin-bottom: -30% !important;
+    }
+
+    .mindset-content h2{
+        font-size: 10px !important;
+        translate: -20% -250% !important;
+    }
+    .mindset-content button{
+        font-size: 5px !important;
+        translate: -60% -140% !important;
+    }
+
+    /* ================ footer section ================= */
+
+    .footer-content{
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    .footer1{
+        width: 100% !important;
+    }
+    .footer2{
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 3000px)
+{
+    .mindset-content h2{
+        font-size: 40px !important;
+        translate: -2% -120% !important;
+    }
+    .mindset-content button{
+        font-size: 20px !important;
+        translate: -10% -105% !important;
     }
 }
